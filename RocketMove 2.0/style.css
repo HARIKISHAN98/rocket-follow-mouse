@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('spaceImg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    position: fixed;
+}
+
+.rocket{
+    position: absolute;
+    transition: 0.2s ease-out;
+}
+
+.rocket img{
+    height: 100px;
+    width: 100px;
+}
